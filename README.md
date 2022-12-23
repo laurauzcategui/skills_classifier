@@ -47,43 +47,46 @@ With this feature extractor, I was able to build numpy vectors that will serve f
 
 ### a. [Majority Class Baseline](./skill_classifier/03_Baseline_Logistic_Regression.ipynb)
 
-    All the work done with scikit learn to predict always the majority class. 
+All the work done with scikit learn to predict always the majority class. 
 
-    Hypothesis: the models should be able to outperform the dummy classifier 
+* Hypothesis: the models should be able to outperform the dummy classifier 
 
 ### b. [Logistic Regression Classifier](./skill_classifier/03_Baseline_Logistic_Regression.ipynb)
 
-    Logistic Regression model was selected as one of the widely used classifier algorithms. 
+Logistic Regression model was selected as one of the widely used classifier algorithms. 
 
-    Hypothesis: Logistic regression should outperform the dummy classifier but not the Transformer Models 
+* Hypothesis: Logistic regression should outperform the dummy classifier but not the Transformer Models 
 
 ### c. [spaCy Ensemble Model - No Cleaning](./skill_classifier/03_text_categorizer_model.ipynb)
 
-    Using spaCy to leverage NLP processing pipeline and categorizers to build the model with the german model trained on news (large)
+Using spaCy to leverage NLP processing pipeline and categorizers to build the model with the german model trained on news (large)
 
-    Hypothesis: The processing pipelines and model trained on german should perform really well on the dataset but no better than the one with Clean Data 
+* Hypothesis: The processing pipelines and model trained on german should perform really well on the dataset but no better than the one with Clean Data 
+
 ### d. [spaCy Ensemble Model - with Cleaning](./skill_classifier/03_textcat_with_clean_text.ipynb)
 
-    Using spaCy to leverage NLP processing pipeline and categorizers to build the model with the german model trained on news (large). 
-    
-    This model differs from the previous as the text data was normalized by removing stopwords, punctuation and applying lemmatiztion.
+Using spaCy to leverage NLP processing pipeline and categorizers to build the model with the german model trained on news (large). 
 
-    Hypothesis: The processing pipelines and model trained on german should perform really well on the dataset better than Baselines and spaCy model with raw data, due to cleaning 
+This model differs from the previous as the text data was normalized by removing stopwords, punctuation and applying lemmatiztion.
+
+* Hypothesis: The processing pipelines and model trained on german should perform really well on the dataset better than Baselines and spaCy model with raw data, due to cleaning 
 
 ### e. [HuggingFace BERT Transfomer Model](./skill_classifier/03_transformer_model_bert.ipynb)
 
-    Transformer models usually perform as state-of-the-art models for NLP and many other tasks. 
+Transformer models usually perform as state-of-the-art models for NLP and many other tasks. 
 
-    Hypothesis: this model trained on BERT with German dataset should be able to outperform any other model
+* Hypothesis: this model trained on BERT with German dataset should be able to outperform any other model
 
 ---------------
 ## 1.3 Result Notebook 
 
 ### a. [Results Notebook](./skill_classifier/04-Results.ipynb)
 
-    All the results and insights product of the work for designing and building the models along with the evaluation for each of them are on this notebook.
+All the results and insights product of the work for designing and building the models along with the evaluation for each of them are on this notebook.
 
-### 1.2. Instructions for Running the notebooks
+---------------------
+
+## 1.4. Instructions for Running the notebooks
 
 1. From your Terminal run the following, to create the conda environment
 
