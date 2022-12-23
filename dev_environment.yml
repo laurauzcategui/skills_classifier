@@ -1,0 +1,20 @@
+name: skills-dev
+channels: 
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - jupyter
+  - spacy
+  - pip
+  - matplotlib
+  - scikit-learn
+  - transformers
+  - datasets 
+  - evaluate
+  - seaborn
+  - pip: 
+    - streamlit
+    - gdown
