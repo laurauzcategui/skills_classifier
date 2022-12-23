@@ -118,7 +118,7 @@ All the results and insights product of the work for designing and building the 
 
 ```
 mkdir -p ./skill_classifier/models/
-gdown -O ./skill_classifier/models/ 1re6-ybn-fxdLIZMATWDVsk7M9ceJB213
+gdown -O ./skill_classifier/models/1re6-ybn-fxdLIZMATWDVsk7M9ceJB213
 tar -xzvf ./skill_classifier/models/best_model_bertv1.tar.gz -C ./skill_classifier/models/
 ```
 
